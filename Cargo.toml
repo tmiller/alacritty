@@ -54,3 +54,7 @@ gl_generator = "0.5.5"
 [profile.release]
 lto = true
 debug = true
+
+[patch.crates-io.winit]
+git = "https://github.com/tmiller/winit"
+branch = "osx-keys"
